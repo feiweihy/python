@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dc6d91e-9fd9-4e86-8b51-888f970b4e31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/jieyi/PythonDataStructure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/jieyi/PythonFunction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WHTToken/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WHTToken/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WHTToken/com/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WHTToken/com/jieyi/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/jieyi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jieyi/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/jieyi/PythonDataStructure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="400" column="8" lean-forward="true" selection-start-line="400" selection-start-column="8" selection-end-line="400" selection-end-column="8" />
+            <state relative-caret-position="1701">
+              <caret line="390" column="3" lean-forward="true" selection-start-line="390" selection-start-column="3" selection-end-line="390" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -63,7 +66,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test1.py" />
-        <option value="$PROJECT_DIR$/com/jieyi/__init__.py" />
         <option value="$PROJECT_DIR$/com/jieyi/BasicGrammar.py" />
         <option value="$PROJECT_DIR$/com/jieyi/PythonCompiler.py" />
         <option value="$PROJECT_DIR$/com/jieyi/PythonNotes.py" />
@@ -81,6 +83,7 @@
         <option value="$PROJECT_DIR$/com/jieyi/PythonIteraterAndGenerater.py" />
         <option value="$PROJECT_DIR$/com/jieyi/PythonFunction.py" />
         <option value="$PROJECT_DIR$/com/jieyi/PythonDataStructure.py" />
+        <option value="$PROJECT_DIR$/com/jieyi/__init__.py" />
       </list>
     </option>
   </component>
@@ -98,6 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,7 +124,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545024753226</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="函数、数据结构">
+      <created>1545040787339</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545040787339</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -358,12 +368,12 @@
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49371633" visible="true" weight="0.23960535" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49371633" visible="true" weight="0.23960535" />
       <window_info id="Structure" order="1" sideWeight="0.50628364" side_tool="true" weight="0.23960535" />
       <window_info id="Favorites" order="2" sideWeight="0.5006227" side_tool="true" weight="0.23960535" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30635118" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30635118" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -389,7 +399,8 @@
     <MESSAGE value="Python运算符合数字" />
     <MESSAGE value="入门基础" />
     <MESSAGE value="入门第一步、条件、循环、迭代器和生成器" />
-    <option name="LAST_COMMIT_MESSAGE" value="入门第一步、条件、循环、迭代器和生成器" />
+    <MESSAGE value="函数、数据结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="函数、数据结构" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test1.py" />
@@ -400,13 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jieyi/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -515,12 +519,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/jieyi/PythonDict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/com/jieyi/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/com/jieyi/PythonFunction.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -529,10 +529,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/com/jieyi/PythonDict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/com/jieyi/PythonDataStructure.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="400" column="8" lean-forward="true" selection-start-line="400" selection-start-column="8" selection-end-line="400" selection-end-column="8" />
+        <state relative-caret-position="1701">
+          <caret line="390" column="3" lean-forward="true" selection-start-line="390" selection-start-column="3" selection-end-line="390" selection-end-column="3" />
         </state>
       </provider>
     </entry>
