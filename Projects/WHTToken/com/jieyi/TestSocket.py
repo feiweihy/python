@@ -5,7 +5,8 @@ import socket
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # 获取本地主机名
-host = '10.20.0.99'
+# host = '10.20.0.99'#昆山内网
+host = '127.0.0.1'
 
 # 设置端口号
 port = 8018
