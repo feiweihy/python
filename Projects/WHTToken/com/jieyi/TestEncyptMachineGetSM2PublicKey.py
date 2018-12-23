@@ -24,11 +24,29 @@ def asc2byte_strmsg(send_msg):
 # print(send_msg_bytehex)
 # print(binascii.a2b_hex(send_msg_bytehex))
 
+# 加密机应该以hexstr进去，再以hexstr出来
 client.send(asc2byte_strmsg('EJS02'))
-
 recvmsg = client.recv(1024)
-
 print (recvmsg)
+
+recvmsg_bytehex = binascii.b2a_hex(recvmsg)
+# recvmsg_bytehexstr = recvmsg_bytehex.decode()
+# print(recvmsg_bytehexstr)
+# print(recvmsg_bytehex[8:12])
+# print(recvmsg_bytehex[8:12].decode())
+result = (binascii.a2b_hex(recvmsg_bytehex[8:12].decode())).decode()
+print(result)
+
+publickey_uncompressed = recvmsg_bytehex[12:].decode()
+print(publickey_uncompressed)
+x = publickey_uncompressed[0:64]
+y = publickey_uncompressed[64:]
+
+# print(binascii.a2b_hex(y[62:])[0]&1)
+
+fuc_calc_publickey_uncompressed = lambda x, y: '03'+x if binascii.a2b_hex(y[62:])[0]&1==1 else '02' + x
+print(fuc_calc_publickey_uncompressed(x,y))
+
 
 client.close()
 
