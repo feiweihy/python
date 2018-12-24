@@ -35,7 +35,6 @@ recvmsg_bytehex = binascii.b2a_hex(recvmsg)
 # print(recvmsg_bytehex[8:12])
 # print(recvmsg_bytehex[8:12].decode())
 result = (binascii.a2b_hex(recvmsg_bytehex[8:12].decode())).decode()
-print(result)
 
 publickey_uncompressed = recvmsg_bytehex[12:].decode()
 print(publickey_uncompressed)
@@ -43,9 +42,14 @@ x = publickey_uncompressed[0:64]
 y = publickey_uncompressed[64:]
 
 # print(binascii.a2b_hex(y[62:])[0]&1)
+print(result)
 
-fuc_calc_publickey_uncompressed = lambda x, y: '03'+x if binascii.a2b_hex(y[62:])[0]&1==1 else '02' + x
-print(fuc_calc_publickey_uncompressed(x,y))
+# fuc_calc_publickey_uncompressed = lambda x, y: '03'+x if binascii.a2b_hex(y[62:])[0]&1==1 else '02' + x
+# print(fuc_calc_publickey_uncompressed(x,y))
+
+publickey_uncompressed = '03'+x if binascii.a2b_hex(y[62:])[0]&1==1 else '02' + x
+# publickey_uncompressed = '03'+x if binascii.a2b_hex('F6')[0]&1==1 else '02' + x
+print(publickey_uncompressed)
 
 
 client.close()
