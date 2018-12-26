@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dc6d91e-9fd9-4e86-8b51-888f970b4e31" name="Default Changelist" comment="python模块">
-      <change afterPath="$PROJECT_DIR$/com/jieyi/PythonErrorAndException.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/jieyi/PythonFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/jieyi/PythonOS.py" afterDir="false" />
+    <list default="true" id="7dc6d91e-9fd9-4e86-8b51-888f970b4e31" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/jieyi/PythonErrorAndException.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jieyi/PythonErrorAndException.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/jieyi/PythonOS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-912">
+            <state>
               <caret selection-end-line="2" selection-end-column="3" />
             </state>
           </provider>
@@ -51,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/jieyi/PythonErrorAndException.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+            <state relative-caret-position="276">
+              <caret line="207" column="7" selection-start-line="207" selection-start-column="7" selection-end-line="207" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -361,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545717690996</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="python Exception一部分">
+      <created>1545724624724</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1545724624724</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -427,7 +432,8 @@
     <MESSAGE value="入门第一步、条件、循环、迭代器和生成器" />
     <MESSAGE value="函数、数据结构" />
     <MESSAGE value="python模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="python模块" />
+    <MESSAGE value="python Exception一部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="python Exception一部分" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test1.py" />
@@ -577,6 +583,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/com/jieyi/PythonFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/com/jieyi/PythonFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -586,22 +599,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com/jieyi/PythonOS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-912">
+        <state>
           <caret selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jieyi/PythonFunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/jieyi/PythonErrorAndException.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+        <state relative-caret-position="276">
+          <caret line="207" column="7" selection-start-line="207" selection-start-column="7" selection-end-line="207" selection-end-column="7" />
         </state>
       </provider>
     </entry>
