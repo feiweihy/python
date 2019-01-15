@@ -1,117 +1,11 @@
 #!/usr/bin/python3
 
 import smtplib
+import com.jieyi.practice.EMailUtil as EMailUtil
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.header import Header
 
-# 第三方 SMTP 服务
-mail_host = "smtp.ym.163.com"  # 设置服务器
-mail_user = "oa@jieyisoft.com"  # 用户名
-mail_pass = "111111"  # 口令
-
-sender = 'oa@jieyisoft.com'
-receivers = ['529486618@qq.com','399935318@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
-receivers = ['894228236@qq.com',
-             'fengwei@jieyisoft.com',
-             'liukougen@jieyisoft.com',
-             'wenshuanghua@jieyisoft.com',
-             'gaozhongnan@jieyisoft.com',
-             'yuxiaohui@jieyisoft.com',
-             'xiangpingbo@jieyisoft.com',
-             'liangdawei@jieyisoft.com',
-             'sunsanrong@jieyisoft.com',
-             'zhaoyan@jieyisoft.com',
-             'zhangya@jieyisoft.com',
-             'weiziyang@jieyisoft.com',
-             'jiangyongqiang@jieyisoft.com',
-             'hanxiaoming@jieyisoft.com',
-             'chenchao@jieyisoft.com',
-             'caodangfeng@jieyisoft.com',
-             'dinghao@jieyisoft.com',
-             'zhonghuizhi@jieyisoft.com',
-             'zhangdawei@jieyisoft.com',
-             'aijingjiao@jieyisoft.com',
-             'huxiang@jieyisoft.com',
-             'fengguoqiang@jieyisoft.com',
-             'kanhonghua@jieyisoft.com',
-             'jiangxufeng@jieyisoft.com',
-             'zhoufuchun@jieyisoft.com',
-             'linan@jieyisoft.com',
-             'liuwenjie@jieyisoft.com',
-             'lizhencheng@jieyisoft.com',
-             'liang@jieyisoft.com',
-             'mengxianning@jieyisoft.com',
-             'liusheng@jieyisoft.com',
-             'caokuan@jieyisoft.com',
-             'xudong@jieyisoft.com',
-             'minqiang@jieyisoft.com',
-             'huyujun@jieyisoft.com',
-             'jiangchao@jieyisoft.com',
-             'liaochengtie@jieyisoft.com',
-             'wanghao@jieyisoft.com',
-             'yuyong@jieyisoft.com',
-             'banyunfei@jieyisoft.com',
-             'zoujun@jieyisoft.com',
-             'jinghuan@jieyisoft.com',
-             'lihao@jieyisoft.com',
-             'liuwenhao@jieyisoft.com',
-             'zhanglu@jieyisoft.com',
-             'pengxiaomei@jieyisoft.com',
-             'raoyou@jieyisoft.com',
-             'wanlingling@jieyisoft.com',
-             'fengyuping@jieyisoft.com',
-             'huanglili@jieyisoft.com',
-             'shitongshuo@jieyisoft.com',
-             'liuchuandong@jieyisoft.com',
-             'renzhiqiang@jieyisoft.com',
-             'zhaolei@jieyisoft.com',
-             'shuxiaomin@jieyisoft.com',
-             'zhanglei@jieyisoft.com',
-             'lizhi@jieyisoft.com',
-             'mayue@jieyisoft.com',
-             'yuandong@jieyisoft.com',
-             'fanhao@jieyisoft.com',
-             'xujun@jieyisoft.com',
-             'lushiyu@jieyisoft.com',
-             'luoming@jieyisoft.com',
-             'chenhui@jieyisoft.com',
-             'guofeng@jieyisoft.com',
-             'songqiang@jieyisoft.com',
-             'wangluhao@jieyisoft.com',
-             'wangpan@jieyisoft.com',
-             'liuquan@jieyisoft.com',
-             'menxiaosai@jieyisoft.com',
-             'xiongkun@jieyisoft.com',
-             'xiechunyang@jieyisoft.com',
-             'wujianlin@jieyisoft.com',
-             'lizhiming@jieyisoft.com',
-             'chenkang@jieyisoft.com',
-             'linyinjie@jieyisoft.com',
-             'luxiaoxiao@jieyisoft.com',
-             'maochengye@jieyisoft.com',
-             'jinxu@jieyisoft.com',
-             'jiangpan@jieyisoft.com',
-             'lifeng@jieyisoft.com',
-             'wangpengfeng@jieyisoft.com',
-             'tiandenghui@jieyisoft.com',
-             'zhongbo@jieyisoft.com',
-             'yangchenyu@jieyisoft.com',
-             'zhangjiang@jieyisoft.com',
-             'liuzhiyang@jieyisoft.com',
-             'jiang_chao@jieyisoft.com',
-             'wuhongzhao@jieyisoft.com',
-             'zhenyi@jieyisoft.com',
-             'liuxu@jieyisoft.com',
-             'wangyoupeng@jieyisoft.com',
-             'geqisheng@jieyisoft.com',
-             'yangfeiyue@jieyisoft.com',
-             'panjianyu@jieyisoft.com',
-             'shuibo@jieyisoft.com',
-             'yangxiaofeng@jieyisoft.com',
-             'guoqing@jieyisoft.com',
-             'quanli@jieyisoft.com',
-             'cixu@jieyisoft.com']
 
 # 创建一个带附件的实例
 message = MIMEMultipart('related')
@@ -152,11 +46,11 @@ att2.add_header('Content-Disposition', 'attachment',filename=('utf-8', '', r'2-�
 message.attach(att2)
 
 smtpObj = smtplib.SMTP()
-smtpObj.connect(mail_host, 25)  # 25 为 SMTP 端口号
-smtpObj.login(mail_user, mail_pass)
-for x in receivers:
+smtpObj.connect(EMailUtil.mail_host, 25)  # 25 为 SMTP 端口号
+smtpObj.login(EMailUtil.mail_user, EMailUtil.mail_pass)
+for x in EMailUtil.receivers:
     try:
-        smtpObj.sendmail(sender, x, message.as_string())
+        smtpObj.sendmail(EMailUtil.sender, x, message.as_string())
         print("["+x+"]邮件发送成功")
     except smtplib.SMTPException:
         print("Error: ["+x+"]无法发送邮件")

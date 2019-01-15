@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dc6d91e-9fd9-4e86-8b51-888f970b4e31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com/jieyi/practice/JieyiTaxRevenueNotify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/jieyi/practice/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/jieyi/PythonObjectOriented.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/jieyi/practice/EMailUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/jieyi/practice/JieYiAnnualMeeting2019.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/jieyi/practice/JieyiTaxRevenueNotify.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/jieyi/practice/JieyiTaxRevenueNotify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WHTToken/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../WHTToken/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,58 +24,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/jieyi/PythonFunction.py">
+        <entry file="file://$PROJECT_DIR$/com/jieyi/PythonObjectOriented.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="1767">
+              <caret line="93" column="7" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/jieyi/PythonFile.py">
+        <entry file="file://$PROJECT_DIR$/com/jieyi/practice/JieyiTaxRevenueNotify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/jieyi/PythonOS.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-969">
-              <caret selection-end-line="2" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/jieyi/PythonErrorAndException.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="204" selection-start-line="204" selection-end-line="204" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/jieyi/senior/PythonSMTP.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="63" selection-start-line="63" selection-end-line="70" selection-end-column="26" />
+            <state relative-caret-position="380">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding>
-                <element signature="e#1554#1568#0" expanded="true" />
+                <element signature="e#20#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com/jieyi/practice/JieyiTaxRevenueNotify.py">
+        <entry file="file://$PROJECT_DIR$/com/jieyi/practice/EMailUtil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="57">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/jieyi/practice/JieYiAnnualMeeting2019.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="931">
+              <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+              <folding>
+                <element signature="e#20#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/jieyi/BasicDataType.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -118,7 +115,11 @@
         <option value="$PROJECT_DIR$/com/jieyi/PythonErrorAndException.py" />
         <option value="$PROJECT_DIR$/com.jieyi.senior.py" />
         <option value="$PROJECT_DIR$/com/jieyi/senior/PythonSMTP.py" />
+        <option value="$PROJECT_DIR$/com/jieyi/PythonObjectOriented.py" />
         <option value="$PROJECT_DIR$/com/jieyi/practice/JieyiTaxRevenueNotify.py" />
+        <option value="$PROJECT_DIR$/com/jieyi/practice/JieYiNianhui2019.py" />
+        <option value="$PROJECT_DIR$/com/jieyi/practice/JieYiAnnualMeeting2019.py" />
+        <option value="$PROJECT_DIR$/com/jieyi/practice/EMailUtil.py" />
       </list>
     </option>
   </component>
@@ -136,7 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,17 +162,11 @@
               <item name="jieyi" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Learning1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Learning1" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jieyi" type="462c0819:PsiDirectoryNode" />
-              <item name="senior" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.JieyiTaxRevenueNotify">
+  <component name="RunManager" selected="Python.JieYiAnnualMeeting2019">
     <configuration name="BasicDataType" type="PythonConfigurationType" factoryName="Python">
       <module name="Learning1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,6 +208,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/jieyi/BasicDataType.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="JieYiAnnualMeeting2019" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Learning1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/jieyi/practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/jieyi/practice/JieYiAnnualMeeting2019.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,7 +279,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PythonInputAndOutput" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PythonObjectOriented" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Learning1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,28 +291,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/jieyi/PythonInputAndOutput.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PythonModule" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Learning1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/jieyi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/jieyi/PythonModule.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/jieyi/PythonObjectOriented.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,11 +323,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.JieYiAnnualMeeting2019" />
+        <item itemvalue="Python.PythonObjectOriented" />
         <item itemvalue="Python.JieyiTaxRevenueNotify" />
         <item itemvalue="Python.PythonSMTP" />
         <item itemvalue="Python.PythonErrorAndException" />
-        <item itemvalue="Python.PythonInputAndOutput" />
-        <item itemvalue="Python.PythonModule" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545880945674</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="python邮件，公司发个税的">
+      <created>1545886900941</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1545886900941</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -452,7 +453,7 @@
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49371633" visible="true" weight="0.23960535" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49371633" visible="true" weight="0.22973925" />
       <window_info id="Structure" order="1" sideWeight="0.50628364" side_tool="true" weight="0.23960535" />
       <window_info id="Favorites" order="2" sideWeight="0.5006227" side_tool="true" weight="0.23960535" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -488,7 +489,8 @@
     <MESSAGE value="python Exception一部分" />
     <MESSAGE value="python Error and Exception" />
     <MESSAGE value="python邮件，没全部好" />
-    <option name="LAST_COMMIT_MESSAGE" value="python邮件，没全部好" />
+    <MESSAGE value="python邮件，公司发个税的" />
+    <option name="LAST_COMMIT_MESSAGE" value="python邮件，公司发个税的" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test1.py" />
@@ -586,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/jieyi/BasicDataType.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/jieyi/PythonLoop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -638,47 +633,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/jieyi/PythonFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.jieyi.senior.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jieyi/PythonFunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jieyi/PythonOS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969">
-          <caret selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jieyi/PythonErrorAndException.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="204" selection-start-line="204" selection-end-line="204" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/jieyi/senior/PythonSMTP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="63" selection-start-line="63" selection-end-line="70" selection-end-column="26" />
-          <folding>
-            <element signature="e#1554#1568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/com.jieyi.senior.py" />
     <entry file="file://D:/Python/Python37/Lib/email/mime/multipart.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -690,13 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Python37/Lib/smtplib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="770" selection-start-line="770" selection-end-line="770" />
         </state>
       </provider>
     </entry>
@@ -714,10 +662,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/com/jieyi/senior/PythonSMTP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="63" selection-start-line="63" selection-end-line="70" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jieyi/PythonErrorAndException.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="204" selection-start-line="204" selection-end-line="204" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jieyi/PythonOS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jieyi/PythonFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jieyi/PythonFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Python37/Lib/smtplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="393" selection-start-line="393" selection-end-line="393" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jieyi/PythonObjectOriented.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="93" column="7" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/com/jieyi/practice/JieyiTaxRevenueNotify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="380">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="e#20#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jieyi/BasicDataType.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jieyi/practice/JieYiAnnualMeeting2019.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+          <folding>
+            <element signature="e#20#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/jieyi/practice/EMailUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
